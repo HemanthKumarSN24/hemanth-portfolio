@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SN Hemanth — AI Automation & Workflow Engineering</title>
+<meta name="description" content="I build working AI automation systems: agentic workflows, supervised automations, document-check pipelines. Live demos, real systems.">
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--fg:#e6edf3;--mut:#8b949e;--acc:#3fb950;--blue:#58a6ff;--warn:#d29922}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.6;padding:0 24px;max-width:900px;margin:0 auto}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+header{padding:70px 0 40px;border-bottom:1px solid var(--line)}
+h1{font-size:2.1em;font-weight:700;letter-spacing:-0.5px}
+.tagline{color:var(--mut);font-size:1.15em;margin-top:8px}
+.badge{display:inline-block;padding:3px 12px;border:1px solid var(--line);border-radius:20px;font-size:13px;color:var(--mut);margin-top:16px;margin-right:8px}
+h2{font-size:1.3em;font-weight:600;margin:48px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;transition:border-color .2s}
+.card:hover{border-color:var(--acc)}
+.card h3{font-size:1.1em;font-weight:600;margin-bottom:8px}
+.card p{color:var(--mut);font-size:14px;margin-bottom:12px}
+.card .link{color:var(--acc);font-weight:600;font-size:14px}
+.card .link::after{content:' →'}
+ul.skills{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.skills li{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 14px;font-size:14px}
+.pricing{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:16px}
+.pricing .item{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line)}
+.pricing .item:last-child{border-bottom:none}
+.pricing .name{font-weight:600}
+.pricing .price{color:var(--acc);font-weight:600}
+.pricing .desc{color:var(--mut);font-size:13px;margin-top:2px}
+.contact{margin-top:8px}
+.contact div{padding:6px 0}
+footer{margin-top:60px;padding:24px 0;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+@media(max-width:600px){h1{font-size:1.6em}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>SN Hemanth</h1>
+<p class="tagline">AI Automation &amp; Workflow Engineering</p>
+<p class="tagline" style="font-size:0.95em">I design and build working agentic AI systems and workflow automations that replace manual business operations — and I ship demos, not slideware.</p>
+<div><span class="badge">MSc Supply Chain Management, Coventry University</span><span class="badge">B.Tech ECE, SRM</span><span class="badge">Coventry, UK</span></div>
+</header>
+
+<h2>Live demos — open them, don't take my word for it</h2>
+<p style="color:var(--mut);font-size:14px;margin-bottom:16px">Every demo below is a working system, not a mockup. Click any to open it.</p>
+<div class="grid">
+<div class="card">
+<h3>Agent demo</h3>
+<p>Autonomous support agent: reasons → plans → executes tools within policy caps → escalates to a human when it should. Three test cases including a legal-threat escalation.</p>
+<a class="link" href="agent-demo.html">Open the agent</a>
+</div>
+<div class="card">
+<h3>FixFlow — maintenance triage</h3>
+<p>Maintenance triage for a 566-bed residential operation: requests classified by urgency and trade, routed automatically, full audit trail.</p>
+<a class="link" href="fixflow.html">Open FixFlow</a>
+</div>
+<div class="card">
+<h3>Azure-patterned triage</h3>
+<p>GenAI triage pipeline with every component mapped to Azure PaaS equivalents — Function, Logic App, Cosmos DB. Confidence gates included.</p>
+<a class="link" href="azure-triage.html">Open the pipeline</a>
+</div>
+<div class="card">
+<h3>Supervised automation (regulated ops)</h3>
+<p>Document-check agent with approval queue and 21 CFR Part 11-style audit trail. Includes a low-confidence case the agent correctly declines to process.</p>
+<a class="link" href="supervised-automation.html">Open the dashboard</a>
+</div>
+</div>
+
+<h2>What I build</h2>
+<ul class="skills">
+<li>Agentic AI systems</li>
+<li>n8n workflow automation</li>
+<li>GenAI pipelines (structured JSON output)</li>
+<li>Data engineering &amp; scraping at scale</li>
+<li>Systems architecture for production reliability</li>
+<li>Process automation for operations teams</li>
+</ul>
+
+<h2>Engagement</h2>
+<div class="pricing">
+<div class="item">
+<div><div class="name">Automation audit</div><div class="desc">I review your current manual workflows and report exactly where automation pays for itself.</div></div>
+<div class="price">$200–300</div>
+</div>
+<div class="item">
+<div><div class="name">Workflow build</div><div class="desc">End-to-end automation: intake → AI processing → human approval → system write, with audit trail.</div></div>
+<div class="price">$1,500–6,000</div>
+</div>
+<div class="item">
+<div><div class="name">Retainer</div><div class="desc">Ongoing maintenance, monitoring and new automation as your operation scales.</div></div>
+<div class="price">$700–2,000/mo</div>
+</div>
+</div>
+
+<h2>Contact</h2>
+<div class="contact panel-style" style="background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px">
+<div><b>Email:</b> <a href="mailto:hemanthkumar2k4@gmail.com">hemanthkumar2k4@gmail.com</a></div>
+<div><b>Phone / WhatsApp:</b> +44 7424 076984</div>
+<div><b>GitHub:</b> <a href="https://github.com/HemanthKumarSN24">HemanthKumarSN24</a></div>
+<div><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/snhemanth">/in/snhemanth</a></div>
+</div>
+
+<footer>SN Hemanth · Built as a working demonstration of the systems I deliver · 2026</footer>
+
+</body>
+</html>
